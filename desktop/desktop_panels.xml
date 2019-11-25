@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+	<panel name="chat" modes="host,client,local">
+		<class>chat</class>
+		<bounds>0,90,425,-130</bounds>
+		<dynamic />
+		<locked />
+	</panel>
+
+	<panel name="dicetower" modes="host,client">    
+		<anchored height="90" width="90">
+			<bottom offset="-130" />
+      <left offset="425" />			
+		</anchored>
+		<class>dicetower</class>
+		<dynamic />
+		<locked />
+	</panel>
+
+	<panel name="imagebackpanel" modes="host,client">
+		<anchored>
+			<left offset="530" /> 
+			<top />
+			<right />
+			<bottom offset="-33" />
+		</anchored>
+		<class>imagebackpanel</class>
+		<disabled />
+	</panel>
+
+	<panel name="imagefullpanel" modes="host,client">
+		<anchored>
+			<left /> 
+			<top />
+			<right />
+			<bottom offset="-33" />
+		</anchored>
+		<class>imagefullpanel</class>
+		<disabled />
+	</panel>
+
+</root>	

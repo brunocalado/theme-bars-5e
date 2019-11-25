@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<!-- Buttons  -->
+	<framedef name="buttonup">
+		<bitmap file="graphics/frames/buttonup.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="buttondown">
+		<bitmap file="graphics/frames/buttondown.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	
+	<!-- Chat window -->
+	<framedef name="chatbox">
+		<bitmap file="graphics/frames/chatbox.png" />
+		<topleft rect="0,0,229,43" />
+		<topright rect="625,0,31,201" />
+		<top rect="230,0,43,43" />
+		<left rect="0,50,126,20" />
+		<middle rect="200,200,50,50" />
+		<right rect="625,210,31,50" />
+		<bottomleft rect="0,199,126,423" />
+		<bottom rect="145,596,50,26" />
+		<bottomright rect="625,453,31,169" />
+	</framedef>
+	
+	<!-- Chat Entry -->	
+	<framedef name="chatentry">
+		<bitmap file="graphics/frames/chatentry.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+
+	<!-- Control frames -->
+	<framedef name="fieldlight">
+		<bitmap file="graphics/frames/fieldlight.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+	<framedef name="fielddark">
+		<bitmap file="graphics/frames/fielddark.png" />
+		<offset>12,12,12,12</offset>
+	</framedef>
+
+	<!-- Desktop -->
+	<framedef name="desktop">
+		<bitmap file="graphics/frames/desktop.png" />
+		<decal rect="0,0,1920,1080" />
+	</framedef>
+  
+	<!-- Hot key bar -->	
+	<framedef name="hotkeybox">
+		<bitmap file="graphics/frames/hotkeybox.png" />
+		<offset>1,1,1,1</offset>
+	</framedef>
+	<framedef name="hotkeytitlebox">
+		<bitmap file="graphics/frames/hotkeytitlebox.png" />
+	</framedef>
+
+	<!-- Images -->
+	<framedef name="imagebox">
+		<bitmap file="graphics/frames/imagebox.png" />
+		<offset>22,14,100,21</offset>
+		<insideoffset>20,5,5,10</insideoffset>
+	</framedef>
+	
+	<!-- MasterIndex-->
+	<framedef name="masterindex">
+		<bitmap file="graphics/frames/masterindex.png" />
+		<topleft rect="0,0,235,50" />
+		<top rect="235,0,50,50" />
+		<topright rect="475,0,50,200" />
+		<left rect="0,235,50,50" />
+		<middle rect="250,250,50,50" />
+		<right rect="475,235,50,50" />
+		<bottomleft rect="0,400,50,200" />
+		<bottom rect="50,475,50,50" />
+		<bottomright rect="475,400,50,200" />
+	</framedef> 
+
+	<!-- Shortcut bar -->	
+	<framedef name="shortcuts">
+		<bitmap file="graphics/frames/shortcuts.png" />
+		<offset>0,0,0,0</offset>
+	</framedef>	
+	
+</root>

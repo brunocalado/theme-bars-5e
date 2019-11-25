@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3.9" logo="logo.png">
+	<announcement text="Theme Bars 5e v0.1" font="emotefont" icon="logo"/>
+	<properties>
+		<name>Theme Bars 5e</name>
+		<version>0.1</version>
+		<author></author>
+		<description>Dungeons and Dragons Bars Theme for Fantasy Grounds</description>	
+		<loadorder>55</loadorder>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+	</properties>
+	<base>
+		<icon name="logo" file="graphics/icons/logo.png" />
+    
+		<includefile source="graphics/graphics_frames.xml" />
+		<includefile source="graphics/graphics_sidebar.xml" />
+		<includefile source="graphics/graphics_icons.xml" />
+		<includefile source="desktop/desktop_classes.xml" />
+		<includefile source="desktop/desktop_panels.xml" />	
+		<script name="DesktopInit" file="scripts/init_desktop.lua" />
+	</base>
+</root>

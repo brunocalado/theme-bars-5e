@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+	<windowclass name="chat">
+		<frame>chatbox</frame>
+		<noclose />
+		<sizelimits>
+			<dynamic />
+			<minimum width="265" height="465" />
+		</sizelimits>
+		<sheetdata>
+			<subwindow name="shortcuts">
+				<anchored width="110">
+					<left><offset>16</offset></left>
+					<top><offset>39</offset></top>
+					<bottom><offset>-9</offset></bottom>
+				</anchored>
+				<class>shortcuts</class>
+				<activate />
+				<fastinit />
+				<invisible />
+			</subwindow>
+			<basicchatentry name="entry">
+				<anchored>
+					<left>
+						<anchor>left</anchor>
+						<offset>135</offset>
+					</left>
+					<right>
+						<anchor>right</anchor>
+						<offset>-82</offset>
+					</right>
+				</anchored>
+			</basicchatentry>
+			<basicchatentryscroll name="entryscroll" />
+			<basicchatentrymode name="mode" />
+			<combobox name="language">
+				<anchored height="15">
+					<right parent="entry" anchor="right" offset="45" />
+					<bottom parent="entry" anchor="top" relation="relative" offset="-5" />
+					<left parent="" anchor="center" offset="45" />
+				</anchored>
+				<tooltip textres="chat_tooltip_language" />
+				<font>chatfont</font>
+				<listmaxsize>12</listmaxsize>
+			</combobox>
+			<genericcontrol name="languageicon">
+				<anchored to="language" position="lefthigh" offset="5,0" width="16" height="16" />
+				<icon>button_speak</icon>
+				<tooltip textres="chat_tooltip_language" />
+			</genericcontrol>
+			<basicchatwindow name="chat">
+				<anchored>
+					<left>
+						<anchor>left</anchor>
+						<offset>135</offset>
+					</left>
+					<right>
+						<anchor>right</anchor>
+						<offset>-40</offset>
+					</right>
+					<top>
+						<anchor>top</anchor>
+						<offset>42</offset>
+					</top>
+				</anchored>        
+        
+			</basicchatwindow>
+			<basicchatwindowscroll name="chatscroll" />
+			<basicchatwindowstatus name="chatstatus" />
+			<chat_resize />
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="shortcuts">
+		<script>
+			function onInit()
+				DesktopManager.registerContainerWindow(self);
+			end
+		</script>
+		<sheetdata>
+			<subwindow name="shortcutbar">
+				<anchored position="insideright" />
+				<class>shortcutbar</class>
+				<activate />
+				<fastinit />
+			</subwindow>
+		</sheetdata>
+	</windowclass>
+
+</root>
