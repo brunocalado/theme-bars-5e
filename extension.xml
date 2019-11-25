@@ -19,6 +19,7 @@
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="desktop/desktop_classes.xml" />
 		<includefile source="desktop/desktop_panels.xml" />	
+    
 		<script name="DesktopInit" file="scripts/init_desktop.lua" />
 	</base>
 </root>
