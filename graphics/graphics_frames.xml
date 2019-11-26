@@ -31,7 +31,7 @@
 		<offset>1,1,1,1</offset>
 	</framedef>
 
-	<!-- Control frames -->
+	<!-- Control frames ok -->
 	<framedef name="fieldlight">
 		<bitmap file="graphics/frames/fieldlight.png" />
 		<offset>12,12,12,12</offset>
@@ -41,26 +41,19 @@
 		<offset>12,12,12,12</offset>
 	</framedef>
 
-	<!-- Desktop -->
+	<!-- Desktop ok -->
 	<framedef name="desktop">
 		<bitmap file="graphics/frames/desktop.png" />
 		<decal rect="0,0,1920,1080" />
 	</framedef>
   
-	<!-- Hot key bar -->	
+	<!-- Hot key bar ok -->	
 	<framedef name="hotkeybox">
 		<bitmap file="graphics/frames/hotkeybox.png" />
 		<offset>1,1,1,1</offset>
 	</framedef>
 	<framedef name="hotkeytitlebox">
 		<bitmap file="graphics/frames/hotkeytitlebox.png" />
-	</framedef>
-
-	<!-- Images -->
-	<framedef name="imagebox">
-		<bitmap file="graphics/frames/imagebox.png" />
-		<offset>22,14,100,21</offset>
-		<insideoffset>20,5,5,10</insideoffset>
 	</framedef>
 	
 	<!-- MasterIndex-->
@@ -77,7 +70,7 @@
 		<bottomright rect="475,400,50,200" />
 	</framedef> 
 
-	<!-- Shortcut bar -->	
+	<!-- Shortcut bar ok -->	
 	<framedef name="shortcuts">
 		<bitmap file="graphics/frames/shortcuts.png" />
 		<offset>0,0,0,0</offset>
