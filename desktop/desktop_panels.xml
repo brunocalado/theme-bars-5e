@@ -11,8 +11,8 @@
 
 	<panel name="dicetower" modes="host,client">    
 		<anchored height="90" width="90">
-			<bottom offset="-130" />
-      <left offset="425" />			
+			<bottom offset="-230" />
+      <left offset="020" />			
 		</anchored>
 		<class>dicetower</class>
 		<dynamic />

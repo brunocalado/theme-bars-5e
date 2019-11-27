@@ -19,4 +19,9 @@
 	<icon name="roll_damage" file="graphics/icons/roll_damage.png" />
 	<icon name="roll_heal" file="graphics/icons/roll_heal.png" />
 
+	<!-- Dice tower -->
+	<icon name="dicetower_icon" file="graphics/dicetower/dicetower_icon.png" />
+	<icon name="dicetower_drop" file="graphics/dicetower/dicetower_drop.png" />
+	<icon name="dicetower_normal" file="graphics/dicetower/dicetower_normal.png" />
+  
 </root>

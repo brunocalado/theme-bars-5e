@@ -76,4 +76,14 @@
 		<offset>0,0,0,0</offset>
 	</framedef>	
 	
+  <!-- Dice Tower -->
+	<framedef name="dicetower_normal">
+		<bitmap file="graphics/dicetower/dicetower_normal.png" />
+		<middle>0,0,100,100</middle>
+	</framedef>
+	<framedef name="dicetower_drop">
+		<bitmap file="graphics/dicetower/dicetower_drop.png" />
+		<middle>0,0,100,100</middle>
+	</framedef>
+  
 </root>
