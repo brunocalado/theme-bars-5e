@@ -1,0 +1,7 @@
+v0.21
+- chat expanded
+- SOUND fixed
+- ct, small detail
+- link button down ok
+- ext CSV Table Importer MK button built, but the ext have loadorder 99, talked to the developer, he did, https://www.fantasygrounds.com/forums/showthread.php?49930-CSV-Table-Importer-MK&p=465320&viewfull=1#post465320
+- ruby script to build multiples exts done

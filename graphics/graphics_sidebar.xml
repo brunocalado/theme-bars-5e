@@ -53,16 +53,21 @@
 	<icon name="button_parcels" file="graphics/sidebar/button_parcels.png" />
 	<icon name="button_parcels_down" file="graphics/sidebar/button_parcels_down.png" />
 	<icon name="button_quests" file="graphics/sidebar/button_quests.png" />
-	<icon name="button_quests_down" file="graphics/sidebar/button_quests_down.png" />
-
-	<!--DOE: Sound Extension Icons -->
-	<icon name="btnSoundCoreRPG" file="graphics/sidebar/button_sound.png" />
-	<icon name="btnSoundDownCoreRPG" file="graphics/sidebar/button_sound_down.png" />
-
+	<icon name="button_quests_down" file="graphics/sidebar/button_quests_down.png" />  
 	<!-- Lower Dock -->
 	<icon name="button_tokencase" file="graphics/sidebar/button_tokencase.png" />
 	<icon name="button_tokencase_down" file="graphics/sidebar/button_tokencase_down.png" />
 	<icon name="button_library" file="graphics/sidebar/button_library.png" />
 	<icon name="button_library_down" file="graphics/sidebar/button_library_down.png" />
+
+  <!--3th party stuff -->
+	<!--DOE: Sound Extension Icons -->
+	<icon name="btnSound5E" file="graphics/sidebar/button_sound.png" />
+	<icon name="btnSoundDown5E" file="graphics/sidebar/button_sound_down.png" />
+
+  <!-- CSV Table Importer MK -->
+  <icon name="rmc_stack_button_up" file="graphics/sidebar/csv_button.png" />
+  <icon name="rmc_stack_button_down" file="graphics/sidebar/csv_button_down.png" />
+
 	
 </root>

@@ -39,6 +39,9 @@ FantasyGround\extensions
 * [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor
 * [Notepad++](https://notepad-plus-plus.org/) - Notepad++ is a free source code editor and Notepad replacement that supports several languages.
 * [Fantasy Grounds](https://www.fantasygrounds.com/) - Fantasy Grounds is the most supported virtual tabletop, with more official licenses than any other virtual tabletop. 
+* [DnD Wallpapers](https://dnd.wizards.com/articles/media-resources/wallpapers)
+* [Ruby](https://www.ruby-lang.org/pt/)
+
 
 ## Acknowledgments
 * This theme is based on [Starfinder Simple Theme ](https://www.fantasygrounds.com/forums/showthread.php?48877-Hacking-a-Theme&p=433549&viewfull=1#post433549)

@@ -9,8 +9,13 @@
 	<icon name="portrait_gm_token" file="graphics/portraits/portrait_gm_token.png" />
 
 	<!-- Buttons -->
-	<icon name="button_link" file="graphics/icons/blue_button.png" />	
-	
+	<icon name="button_link" file="graphics/icons/button_link.png" />
+  <icon name="button_link_down" file="graphics/icons/button_link_down.png" />		
+  
+ 	<!-- Combat Tracker -->
+	<icon name="ct_active" file="graphics/icons/ct_active.png" />
+	<icon name="ct_passive" file="graphics/icons/ct_passive.png" />
+  
 	<!-- Rolls -->
 	<icon name="roll_attack" file="graphics/icons/roll_attack.png" />
 	<icon name="roll_attack_miss" file="graphics/icons/roll_attack_miss.png" />

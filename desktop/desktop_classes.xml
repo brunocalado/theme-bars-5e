@@ -7,7 +7,7 @@
 		<noclose />
 		<sizelimits>
 			<dynamic />
-			<minimum width="265" height="465" />
+			<minimum width="465" height="465" />
 		</sizelimits>
 		<sheetdata>
 			<subwindow name="shortcuts">
@@ -21,6 +21,7 @@
 				<fastinit />
 				<invisible />
 			</subwindow>
+      
 			<basicchatentry name="entry">
 				<anchored>
 					<left>
@@ -33,8 +34,11 @@
 					</right>
 				</anchored>
 			</basicchatentry>
+      
 			<basicchatentryscroll name="entryscroll" />
+      
 			<basicchatentrymode name="mode" />
+      
 			<combobox name="language">
 				<anchored height="15">
 					<right parent="entry" anchor="right" offset="45" />
@@ -45,11 +49,13 @@
 				<font>chatfont</font>
 				<listmaxsize>12</listmaxsize>
 			</combobox>
+      
 			<genericcontrol name="languageicon">
 				<anchored to="language" position="lefthigh" offset="5,0" width="16" height="16" />
 				<icon>button_speak</icon>
 				<tooltip textres="chat_tooltip_language" />
 			</genericcontrol>
+      
 			<basicchatwindow name="chat">
 				<anchored>
 					<left>
@@ -70,6 +76,7 @@
 			<basicchatwindowscroll name="chatscroll" />
 			<basicchatwindowstatus name="chatstatus" />
 			<chat_resize />
+      
 		</sheetdata>
 	</windowclass>
 
