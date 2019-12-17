@@ -18,10 +18,10 @@
 		<dynamic />
 		<locked />
 	</panel>
-
+  
 	<panel name="imagebackpanel" modes="host,client">
 		<anchored>
-			<left offset="530" /> 
+			<left offset="650" /> 
 			<top />
 			<right />
 			<bottom offset="-33" />
@@ -40,5 +40,5 @@
 		<class>imagefullpanel</class>
 		<disabled />
 	</panel>
-
+  
 </root>	

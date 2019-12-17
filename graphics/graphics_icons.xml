@@ -12,9 +12,13 @@
 	<icon name="button_link" file="graphics/icons/button_link.png" />
   <icon name="button_link_down" file="graphics/icons/button_link_down.png" />		
   
- 	<!-- Combat Tracker -->
+ 	<!-- Combat Tracker -->	
+	<icon name="ct_faction_friend" file="graphics/icons/ct_faction_friend.png" />
+	<icon name="ct_faction_neutral" file="graphics/icons/ct_faction_neutral.png" />
+	<icon name="ct_faction_foe" file="graphics/icons/ct_faction_foe.png" />
 	<icon name="ct_active" file="graphics/icons/ct_active.png" />
 	<icon name="ct_passive" file="graphics/icons/ct_passive.png" />
+	<icon name="turn_flag" file="graphics/icons/turn_flag.png" />
   
 	<!-- Rolls -->
 	<icon name="roll_attack" file="graphics/icons/roll_attack.png" />
@@ -26,7 +30,5 @@
 
 	<!-- Dice tower -->
 	<icon name="dicetower_icon" file="graphics/dicetower/dicetower_icon.png" />
-	<icon name="dicetower_drop" file="graphics/dicetower/dicetower_drop.png" />
-	<icon name="dicetower_normal" file="graphics/dicetower/dicetower_normal.png" />
   
 </root>

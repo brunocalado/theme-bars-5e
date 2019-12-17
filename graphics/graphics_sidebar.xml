@@ -22,6 +22,7 @@
  
 	<!-- Sidebar Dock -->
   <icon name="button_backgrounds" file="graphics/sidebar/button_backgrounds.png" />
+  <icon name="button_backgrounds_down" file="graphics/sidebar/button_backgrounds_down.png" />
   
 	<icon name="button_tables" file="graphics/sidebar/button_tables.png" />
 	<icon name="button_tables_down" file="graphics/sidebar/button_tables_down.png" />
