@@ -69,6 +69,5 @@
   <!-- CSV Table Importer MK -->
   <icon name="rmc_stack_button_up" file="graphics/sidebar/csv_button.png" />
   <icon name="rmc_stack_button_down" file="graphics/sidebar/csv_button_down.png" />
-
-	
+  
 </root>

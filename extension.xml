@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3.9" logo="logo.png">
 
-	<announcement text="Theme Bars 5e v0.22" font="emotefont" icon="logo"/>
+	<announcement text="Theme Bars 5e v0.23" font="emotefont" icon="logo"/>
   
 	<properties>
 		<name>Theme Bars 5e</name>
-		<version>0.22</version>
+		<version>0.23</version>
 		<author></author>
 		<description>Dungeons and Dragons Bars Theme for Fantasy Grounds</description>	
 		<loadorder>55</loadorder>
